@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #62BFE8;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+    align-content: space-between;
+} 
+
+.container{
+
+}
+
+.card{
+    min-height: 200px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 3px;
+    box-shadow: 1px 2px 5px 2px #aaa  0 auto;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.card_header{
+    position: relative;
+}
+
+.card_img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    right:0.5px;
+    
+}
+
+.card_header_mod{
+    padding: 15px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.card_price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    color: #FCFDFD;
+    background-color: #E4747C;
+}
+
+.card_flag{
+    background-color: #62BFE8;
+    color: #FCFDFD;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.dias{
+    display:flex;
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+    
+}
+    
+
+
+.dia1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: #FCFDFD;
+    background-color: #62BFE8;
+    
+
+}
+ 
+.dia2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: #FCFDFD;
+    background-color: #62BFE8;
+}
+
+.dia3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    color: #FCFDFD;
+    background-color:#62BFE8;
+}
+
+.texto{
+    background-color:#E4747C; 
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    font-size:20px;
+    padding: 15px;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.redes{
+    flex-wrap: wrap;
+    color:white;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-between;
+    cursor: pointer;
+}

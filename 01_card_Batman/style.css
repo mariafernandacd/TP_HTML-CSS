@@ -1,0 +1,84 @@
+
+*{
+    font-family: Roboto, sans-serif;
+  }
+  
+  .card{
+      min-height:  500px;
+      width: 510px;
+      background-color:#1e1b26 ;
+      margin: auto;
+      box-shadow: 1px 2px 5px 2px;
+      font-family: Roboto,sans-serif;
+      text-align: justify;
+      border-radius: 1px;
+  
+  }
+  
+  .card-titulo{
+    
+      font-family:Roboto,sans-serif;
+      color: #e7e7e7;
+      font-size: 48px;
+      font-weight: 100;
+      margin: 8px 16px 16px 20px;
+  
+  }
+  .card-subtitulo{
+       
+      color:#e7e7e7;
+      margin: 8px 16px 16px 20px;
+      font-family:  Roboto,sans-serif;
+      
+      
+  }
+  
+  .card-info{
+      font-family: Roboto,sans-serif;
+      margin: 8px 16px 16px 20px;
+      color: #9b9b9b;
+      font-weight: bold;
+  
+  }
+  
+  .card-text{
+      font-family:Roboto, sans-serif;
+      color: #9b9b9b;
+      text-align:start ;
+      padding: 5px;
+      margin: 8px 16px 16px 20px;
+      font-weight: bolder;
+      text-align: justify;
+  }
+  
+  .card-buttom{
+      color: #fe4141;
+      display: inline-block;
+      padding:10px;
+      margin-bottom: 10px;
+      border: 2px solid  #fe4141;
+      border-radius: 10px;
+      margin: 8px 16px 16px 20px;
+  
+  }
+  
+  .card-actores{
+      color: #e7e7e7;
+      font-style: italic;
+      margin: 8px 16px 16px 20px;
+      vertical-align: text-top;
+      font-size: 16px;
+  }
+  
+  .card-img{
+      width: 100%;
+      margin: 1px;
+  }
+  
+  .img-buttom{
+      width: 10%;
+      height: 3%;
+  
+  }
+  
+  

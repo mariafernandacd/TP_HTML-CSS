@@ -1,0 +1,15 @@
+.btn {
+  background-color: $pink;
+  border: none;
+  border-radius: 15px;
+  padding: $sp0 $sp2;
+  color: $very-pale-cyan;
+  font-weight: 900;
+
+  &--blanco {
+    background-color: white;
+    color: rgba(53, 52, 52, 0.979);
+    box-shadow: 5px 5px 10px -1px rgba(56, 56, 56, 0.75);
+    font-weight: 900;
+  }
+}

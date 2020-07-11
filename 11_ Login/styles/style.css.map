@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "layout/_body.scss",
+    "base/_reset.scss",
+    "components/_conteiner.scss",
+    "components/_form.scss",
+    "utils/_variables.scss",
+    "components/btn.scss",
+    "layout/_main.scss"
+  ],
+  "names": [],
+  "mappings": "AAAQ;ACAR;EACE;EACA;EACA;;;ACHF;EACE;EACA;;AAEA;EACE;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAGF;EACE;EACA;;;AClBJ;EACE;;;AAEF;EACE,WCKU;EDJV;EACA;EACA,eCGiB;;;ADCjB;EACE;EACA;EACA;EACA;;AAGF;EACE;EACA;EACA;;AAGF;EACE;;AAGF;EACE;EACA;EACA;;AAGF;EACE;;;AAIJ;EACE;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AElDF;EACE,kBDaiB;ECZjB;EACA;EACA;EACA;;;AAGF;EACE,kBDMuB;;;ACHzB;EACE,kBDGwB;;;AJd1B;EACE;EACA;;;AMJF;EACE;EACA;EACA;EACA;EACA",
+  "file": "style.css"
+}

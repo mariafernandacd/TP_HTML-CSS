@@ -1,0 +1,62 @@
+.container {
+    color: var(--foreground);
+  }
+  
+  .img-bg {
+    height: 90vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 0;
+    background-image: url(img/avengers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -10;
+
+  }
+  
+  .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    overflow: auto;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 1)
+    );
+    z-index: -10;
+  }
+  
+  .pelicula{
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: flex-end;
+    width: 175px;
+    height: 250px;
+    top: auto;
+    border-radius: 10px;
+    border: 0.5px solid #FFFFFFFF;
+  }
+
+  .titulo{
+      color: white;
+  }
+
+  .titulo2{
+      color: white;
+
+  }
+
+  

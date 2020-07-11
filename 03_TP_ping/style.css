@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+*{
+  font-family: 'Libre Franklin', sans-serif;
+  
+}
+
+
+.container{
+  width: 1440px;
+  display: flex;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#ffff;
+}
+
+.ping{
+  padding: 20px 700px;
+}
+
+.titulo{
+  color: hsl(0, 0%, 59%);
+  font-family:'Libre Franklin', sans-serif;
+  font-weight:100;
+  letter-spacing: 0.75px;
+}
+
+.titulo1{
+  color:hsl(209, 33%, 12%);
+  font-weight:900;
+}
+
+.texto{
+  color: hsl(209, 33%, 12%);
+  font-family:'Libre Franklin', sans-serif;
+ 
+  
+}
+
+.form-input{
+  margin-right: 15px;
+  width: 400px;
+  height: 45px;
+  border: 0.5px solid hsl(0, 0%, 59%);
+  border-radius: 30px;
+  padding-left: 30px;
+}
+
+.form-button{
+  background:  hsl(223, 87%, 63%);
+  right: 1px;
+  padding: 0 50px;
+  height: 50px;
+  cursor: auto;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+}
+.RedesSociales{
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  letter-spacing: 35px;
+  color:  hsl(223, 87%, 63%);
+}
+
+.copy{
+  color:  hsl(0, 0%, 59%);
+  font-family:'Libre Franklin', sans-serif;
+  font-weight: 15px;
+}
+
+.illustration{
+  margin: 10px;
+  width: 10%;
+}

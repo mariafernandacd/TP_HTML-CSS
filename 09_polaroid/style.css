@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:url("imagenes/fondoazulmadera.jpg");
+   
+    
+   
+}
+
+.galeria{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.foto{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    box-shadow: 4px 3px 4px black;
+    transition: 0.8s;
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+
+  }
+  
+  img {
+    height: 200px;
+  }
+  
+  .foto:hover {
+    box-shadow: 5px 10px 100px black;
+    transform: scale(1.5);
+    z-index: 20;
+    
+  }
+
+.foto1{
+   transform: rotate(10deg);
+   z-index: 1;
+   
+}
+ .foto1:hover{
+    filter: sepia(100%);
+ }
+
+.foto2{
+    transform: rotate(-10deg);
+    z-index: 1;
+    
+   
+}
+.foto2:hover{ filter: blur(5px);
+}
+
+.foto3{
+    transform: rotate(5deg);
+    z-index: 1;
+    
+    
+}
+.foto3:hover{
+    filter: grayscale(100%);
+}
+
+.foto4{
+    transform: rotate(-8deg);
+    z-index: 1;
+   
+    
+}
+.foto4:hover{
+    filter: invert(100%);
+}
+
+.foto5{
+    transform: rotate(7deg);
+    z-index: 1;
+    
+    
+}
+
+.foto5:hover{
+    filter: hue-rotate(50deg);
+}
+
+.foto6{
+    transform: rotate(-3deg);
+    z-index: 1; 
+}
+
+.foto6:hover{
+    filter: brightness(50%);
+}
+
+.foto7{
+    transform: rotate(20deg);
+    z-index: 1;
+    
+}
+
+.foto7:hover{ filter: contrast(250%);
+}
+
+.foto8{
+    transform: rotate(-15deg);
+    z-index: 1;
+  
+    
+}
+.foto8:hover{
+    filter: saturate(250%);
+}
